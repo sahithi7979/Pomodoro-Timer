@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pomodora</title>
+    <link rel="stylesheet" href="pomodora.css">
+  </head>
+  <body bgcolor="	#8000ff">
+    <h1>Pomodoro Timer</h1>
+    <div class="main">
+    <div class="maindiv">
+      <p id="work">Work:</p>
+      <p id="break">Break:</p>
+      <p id="cycles">Cycles:</p>
+    </div>
+    <div class="second">
+    <div class="timer">
+      <p class="minutes" id="min">25</p>
+      <p class="semicolon">:</p>
+      <p class="seconds" id="sec">00</p>
+    </div>
+
+    <p class="cycle" id="counter">0</p>
+
+    <div class="break">
+      <p id="min-break" class="break1">5</p>
+      <p class="semicolon2">:</p>
+      <p id="sec-break" class="break2">00</p>
+    </div>
+    </div>
+        <button id="start" class="btn">Start</button>
+        <button id="stop" class="btn">Pause</button>
+        <button id="reset" class="btn">Reset</button>
+    </div>
+    <script src="timer.js"></script>
+  </body>
+</html>
